@@ -75,6 +75,17 @@ export default function Home() {
             </div>
             <div className="w-96">
               <ProjectBox 
+                imageSrc="/assets/newPortfolio.png"
+                title="New Portfolio"
+                language='Next.js'
+                description="My new portfolio page. You are currently here."
+                githubLink="https://github.com/Charlie-Ward/Portfolio-Page"
+                externalLink="https://charlie-ward.vercel.app"
+              />
+            </div>
+            <div className="w-96">
+              <ProjectBox 
+                imageSrc="/assets/oldPortfolio.webp"
                 title="Old Portfolio"
                 language='React.js'
                 description="My old portfolio page. No longer works."
