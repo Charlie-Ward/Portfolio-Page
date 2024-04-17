@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-center font-sans antialiased font-bold text-2xl">Charlie Ward</h1>
         <TypingEffect onTypingComplete={handleTypingComplete} /> {/* Pass the prop here */}
         {typingComplete && (
-          <div className="grid grid-cols-3 gap-4 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
             <div className="w-96">
               <ProjectBox 
                 imageSrc="/assets/banGUI.png"
