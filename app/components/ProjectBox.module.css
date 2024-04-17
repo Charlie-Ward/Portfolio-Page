@@ -84,7 +84,7 @@
 }
 
 .icon {
-    color: #333;
+    color: var(--icon-color);
 }
 
 .github-icon {
