@@ -1,6 +1,6 @@
 import { BlogPosts } from "../components/posts";
 
-export const metadat = {
+export const metadata = {
     title: 'Blog',
     description: 'Read My Blog.',
 }
