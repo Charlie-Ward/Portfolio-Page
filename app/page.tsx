@@ -13,9 +13,8 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-16">
       <div className="container">
-        <h1 className="text-center font-sans antialiased font-bold text-2xl">Charlie Ward</h1>
         <TypingEffect onTypingComplete={handleTypingComplete} /> {/* Pass the prop here */}
         {typingComplete && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
