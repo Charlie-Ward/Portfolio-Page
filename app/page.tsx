@@ -42,6 +42,7 @@ export default function Home() {
             </div>
             <div className="w-96">
               <ProjectBox 
+                imageSrc='/assets/cpu.png'
                 title="CPU Simulator"
                 language='Python'
                 description="This is a small CPU simulator"
@@ -49,7 +50,8 @@ export default function Home() {
               />
             </div>
             <div className="w-96">
-              <ProjectBox 
+              <ProjectBox
+                imageSrc='/assets/vanish.png'
                 title="LousyNetVanish Plugin"
                 language='Java'
                 description="A spigot vanish plugin using a jedis database to allow for server network usage"
@@ -58,6 +60,7 @@ export default function Home() {
             </div>
             <div className="w-96">
               <ProjectBox 
+                imageSrc='/assets/lockdown.png'
                 title="LousyNetLockdown Plugin"
                 language='Java'
                 description="A spigot lockdown plugin using a jedis database to allow for server network usage"
@@ -66,6 +69,7 @@ export default function Home() {
             </div>
             <div className="w-96">
               <ProjectBox 
+                imageSrc='/assets/playercount.png'
                 title="LousyNetPlayerCountUtils"
                 language='Java'
                 description="A spigot player count tracking plugin using a jedis database to allow for server network usage"
